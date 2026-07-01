@@ -21,7 +21,8 @@ enum class TokenType {
 
   TOKEN_CLAMP,
 
-  TOKEN_VME
+  TOKEN_VME,
+  TOKEN_EOF
 };
 
 struct Token {
