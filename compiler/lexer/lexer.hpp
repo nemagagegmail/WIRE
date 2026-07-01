@@ -26,7 +26,7 @@ enum class TokenType {
 };
 
 struct Token {
-  TokenType; // Write here the type from the list above 
+  TokenType type; // Write here the type from the list above 
   std::string value; // Here we write the text itself, like "+" or "123" 
 };
 
