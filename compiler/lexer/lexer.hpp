@@ -5,7 +5,7 @@
 
 namespace WIRE {
 
-enum class TokenType
+enum class TokenType {
   TOKEN_NONE,
   TOKEN_RETURN,
 
